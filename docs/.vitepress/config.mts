@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Kanut's Developer Logs",
   // TODO: Update the descriptions
   description: "",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
