@@ -9,19 +9,25 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Blogs', link: '/markdown-examples' }
+      { text: 'Blogs', link: '/about-me' }
     ],
 
     sidebar: [
       {
-        text: 'Machine Learning Journal',
+        text: 'Profile',
+        items: [
+          { text: 'About me', link: '/about-me' }
+        ]
+      },
+      {
+        text: 'AI',
         items: []
       },
       {
-        text: 'Examples',
+        text: 'Personal',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          // { text: 'Markdown Examples', link: '/markdown-examples' },
+          // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
