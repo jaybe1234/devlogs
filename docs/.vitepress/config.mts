@@ -15,18 +15,13 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Profile',
-        items: [
-          { text: 'About me', link: '/about-me' }
-        ]
-      },
-      {
         text: 'AI',
         items: []
       },
       {
         text: 'Personal',
         items: [
+          { text: 'About me', link: '/about-me' }
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
